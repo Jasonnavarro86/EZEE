@@ -1725,6 +1725,9 @@ a {
     overflow: visible;
     margin-top: -44px;
   }
+  .button {
+    line-height: 21px;
+  }
   .button.contact {
     width: 100%;
     margin-top: 10px;
@@ -1750,6 +1753,8 @@ a {
     margin-right: 19px;
   }
   .feature-wrap {
+    margin-top: 10vh;
+    margin-bottom: 3vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -1762,6 +1767,12 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+  .feature-wrap.reverse.toptwo {
+    margin-top: 9vh;
+  }
+  .feature-wrap.top {
+    margin-top: 7vh;
   }
   .feature-image {
     width: auto;
@@ -1817,12 +1828,12 @@ a {
   }
   .heading-3 {
     margin-top: 40px;
-    font-size: 36px;
+    font-size: 42px;
     line-height: 56px;
   }
   .text-block-3 {
     margin-left: -6px;
-    font-size: 70px;
+    font-size: 57px;
     line-height: 34px;
     text-align: left;
   }
