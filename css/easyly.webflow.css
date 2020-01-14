@@ -448,6 +448,10 @@ a {
   margin-top: 16px;
 }
 
+.feature-content.icons.numbers.numberstwo {
+  margin-top: -25px;
+}
+
 .heading-2 {
   margin-top: 20px;
   margin-bottom: 40px;
@@ -1275,7 +1279,7 @@ a {
   font-style: normal;
   font-weight: 700;
   text-align: center;
-  letter-spacing: 11px;
+  letter-spacing: 7px;
 }
 
 .text-span {
@@ -1455,6 +1459,9 @@ a {
   }
   .feature-content.icons.numbers.fourth {
     margin-top: 98px;
+  }
+  .feature-content.icons.numbers.numberstwo {
+    margin-top: 0px;
   }
   .feature-content.icons.third {
     margin-top: -89px;
@@ -1699,7 +1706,7 @@ a {
     align-items: center;
   }
   .number {
-    font-size: 41px;
+    font-size: 70px;
   }
   .menu-icon {
     font-size: 30px;
@@ -1779,9 +1786,9 @@ a {
     margin-top: 0px;
   }
   .feature-content.icons.numbers.fourth {
-    display: none;
+    display: block;
     overflow: visible;
-    margin-top: -44px;
+    margin-top: 19px;
   }
   .button {
     padding-right: 20px;
@@ -1875,7 +1882,7 @@ a {
     width: 15vw;
   }
   .number {
-    font-size: 40px;
+    font-size: 65px;
   }
   .menu-button {
     position: absolute;
@@ -1901,6 +1908,7 @@ a {
     font-size: 42px;
     line-height: 29px;
     text-align: left;
+    letter-spacing: 3px;
   }
   .text-span {
     position: static;
